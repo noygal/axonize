@@ -1,5 +1,6 @@
 import React from 'react'
-
+// NOTE: The proper way to implement the component is without 
+// "dangerouslySetInnerHTML", due to time constraints I used this property
 const Table = props => {
   const { headers = [], rows =[], marker } = props
   function markText(text, marker) {

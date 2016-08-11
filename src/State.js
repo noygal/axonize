@@ -22,7 +22,7 @@ State.on('loadDevices', () => {
 
 const headers = new Headers({
   'Content-Type': 'application/json',
-  'appId': 'b799aae9-51b8-4613-8a1d-894a80b35481',
+  'appId': 'Fill me up',
   'Authorization': 'Fill me up'
 });
 
